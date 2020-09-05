@@ -16,4 +16,6 @@ nums = [1, 5, 2, 8]
 target = 7
 
 solution = Solution()
+
+# Output is the indices of the numbers which sum up.
 print ("Indexes :", solution.twoSum(nums, target))
