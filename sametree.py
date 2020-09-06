@@ -27,3 +27,20 @@ class Solution:
         
         return False
 
+rootp = TreeNode(2)
+childpleft = TreeNode(3)
+childpright = TreeNode(4)
+
+rootq = TreeNode(2)
+childqleft = TreeNode(3)
+childqright = TreeNode(4)
+
+rootp.left = childpleft
+rootp.right = childpright
+
+rootq.left = childqleft
+rootq.right = childqright
+
+
+print (Solution().isTreeSame(rootp, rootq))
+
