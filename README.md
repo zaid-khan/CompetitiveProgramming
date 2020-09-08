@@ -11,7 +11,7 @@ This is a repo of all competitive programming code. I have used Python to code.
 
 ## Python technicalities:
 
-1. Always think of the negative sign in an index of list, as "len(list) - index" like for eg. 
-   li = [1, 2, 3, 4]
-   li[-1] = li[len(li) - 1]
+1. Always think of the negative sign in an index of list, as `len(list) - index` like for eg. 
+   `li = [1, 2, 3, 4]`
+   `li[-1] = li[len(li) - 1]`
    
