@@ -23,7 +23,10 @@ class Solution:
 
 
 
-li = [2, 1, 2]
+li = [2, 5, 2, 4, 3, 4, 3]
+#  010
+#^ 001
+#^ 010
+#= 001 <- Result - Duplicate will have zeros because of even rule here 
 
 print (Solution().find_single_number_2(li))
-
