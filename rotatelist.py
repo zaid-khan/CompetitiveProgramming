@@ -1,5 +1,10 @@
 class Solution:
     
+    # 1, 2, 3, 4, 5
+    # n = 5
+    # Rotate - k = 2 - Left - 4, 5, 1, 2, 3
+    # Rotate - k = 3 (n - 2) - Right - 4, 5, 1, 2, 3 
+
     def rotate(self, nums, k):
         """
         :type nums: List[int]
